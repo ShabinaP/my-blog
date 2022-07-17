@@ -1,5 +1,5 @@
 {
-  "extends": ["next", "prettier"],
+  "extends": ["next/babel", "next", "prettier", "next/core-web-vitals"],
   "settings": {
     "next": {
       "rootDir": "website/"
