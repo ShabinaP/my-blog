@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+$poppins: 'Poppins', sans-serif;
+$primary: #469B74;
+$secondary: #92C998;
+$pink: #CC5A71;
+$black: #0E0004;
+
+
+.bdy {
+    font-family: $poppins;
+    margin: 0;
+    background-color: white;
+    border-top: 5px solid #e5e5e5;
+    overflow: hidden;
+    color: $primary;
+    height: 100%;
+}
+
+.layout_wrapper {
+    width: 97.5%;
+    height: 100%;
+    max-width: 850px; 
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
